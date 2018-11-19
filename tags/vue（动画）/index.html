@@ -3,20 +3,18 @@
 <head><meta name="generator" content="Hexo 3.8.0">
   <meta charset="utf-8">
   
-  <title>swiper | 老菜鸟</title>
+  <title>Tag: vue（动画） | 老菜鸟</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="基于swiper4  1. cnpm install --save-dev vue-awesome-swiper  拦截器  axios axios-mock-adapter  const mock = new axiosAdapter(axios)  mock.onGet(&amp;quot;/getCarouselList&amp;quot;).reply(200,{     errCode:0,">
-<meta name="keywords" content="swiper">
-<meta property="og:type" content="article">
-<meta property="og:title" content="swiper">
-<meta property="og:url" content="http://yoursite.com/2018/11/19/swiper/index.html">
+  <meta name="description" content="my blog desc">
+<meta property="og:type" content="website">
+<meta property="og:title" content="老菜鸟">
+<meta property="og:url" content="http://yoursite.com/tags/vue（动画）/index.html">
 <meta property="og:site_name" content="老菜鸟">
-<meta property="og:description" content="基于swiper4  1. cnpm install --save-dev vue-awesome-swiper  拦截器  axios axios-mock-adapter  const mock = new axiosAdapter(axios)  mock.onGet(&amp;quot;/getCarouselList&amp;quot;).reply(200,{     errCode:0,">
+<meta property="og:description" content="my blog desc">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-11-19T10:22:02.874Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="swiper">
-<meta name="twitter:description" content="基于swiper4  1. cnpm install --save-dev vue-awesome-swiper  拦截器  axios axios-mock-adapter  const mock = new axiosAdapter(axios)  mock.onGet(&amp;quot;/getCarouselList&amp;quot;).reply(200,{     errCode:0,">
+<meta name="twitter:title" content="老菜鸟">
+<meta name="twitter:description" content="my blog desc">
   
     <link rel="alternate" href="/atom.xml" title="老菜鸟" type="application/atom+xml">
   
@@ -69,123 +67,42 @@
   </div>
 </div>
 
-        <section id="main"><article id="post-swiper" class="wow slideInRight article article-type-post" itemscope="" itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2018/11/19/swiper/" class="article-date">
-  <time class="post-time" datetime="2018-11-19T10:06:46.219Z" itemprop="datePublished">
+        <section id="main">
+  
+  
+    
+    
+      
+      
+      <section class="archives-wrap animated rubberBand">
+        <div class="archive-year-wrap">
+          <a href="/archives/2018" class="archive-year">2018</a>
+        </div>
+        <div class="archives">
+    
+    <article class="archive-article archive-type-post">
+  <div class="archive-article-inner">
+    <header class="archive-article-header">
+      <a href="/2018/11/01/My-New-Post/" class="archive-article-date">
+  <time class="post-time" datetime="2018-11-01T11:58:30.213Z" itemprop="datePublished">
     <span class="post-month">11月</span><br>
-    <span class="post-day">19</span>
+    <span class="post-day">01</span>
   </time>
 </a>
-   
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
+      
   
-    <h1 class="article-title" itemprop="name">
-      swiper
+    <h1 itemprop="name">
+      <a class="archive-article-title" href="/2018/11/01/My-New-Post/">vue动画</a>
     </h1>
   
 
-        <div>
-          
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/swiper/">swiper</a>
+    </header>
   </div>
-
-          
-              
-
-          
-        </div>
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <blockquote>
-<p>基于swiper4</p>
-</blockquote>
-<pre><code>1. cnpm install --save-dev vue-awesome-swiper
-</code></pre><blockquote>
-<p>拦截器</p>
-</blockquote>
-<pre><code>axios
-axios-mock-adapter
-
-const mock = new axiosAdapter(axios)
-
-mock.onGet(&quot;/getCarouselList&quot;).reply(200,{
-    errCode:0,
-    errMsg:&apos;&apos;,
-    result:[
-        {
-            url:&quot;./static/images/banner1.png&quot;
-        },
-        {
-            url:&quot;./static/images/banner2.png&quot;
-        }
-    ]
-})
-</code></pre><a id="more"></a>
-<blockquote>
-<p>element-ui</p>
-</blockquote>
-<pre><code>1. 引入
-import ElementUI from &apos;element-ui&apos;
-2. 挂载
-Vue.use(ElementUI)
-3.显示
-&lt;el-carousel :interval=&quot;3000&quot; height=&quot;131px&quot;&gt;
-    &lt;el-carousel-item&gt;
-        &lt;img :src=&quot;item.picUrl&quot;&gt;
-    &lt;/el-carousel-item&gt;
-&lt;/el-carousel&gt;
-</code></pre><blockquote>
-<p>axios 拦截器</p>
-</blockquote>
-<pre><code>axios-mock-adapter
-</code></pre><blockquote>
-<p>vue-lazyload</p>
-</blockquote>
-<pre><code>1. 引入
-import VueLazyload from &quot;vue-lazyload&quot;
-2. 挂载
-Vue.use(VueLazyload, {
-    preLoad: 1.3,
-    loading: &quot;../static/img/loading.gif&quot;
-})
-3.显示
-template中的v-bind:src变为v-lazy
-</code></pre>
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/11/19/swiper/" data-id="cjoo5gmv80001qoawzsexvlyi" class="article-share-link">分享</a>
-      
-      
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/swiper/">swiper</a></li></ul>
-
-    </footer>
-  </div>
-  
-    
-<nav id="article-nav">
-  
-  
-    <a href="/2018/11/01/My-New-Post/" id="article-nav-older" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">下一篇</strong>
-      <div class="article-nav-title">vue动画</div>
-    </a>
-  
-</nav>
-
-  
 </article>
-
-
+  
+  
+    </div></section>
+  
 
 </section>
         
