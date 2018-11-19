@@ -1,16 +1,16 @@
-// .cb-slideshow li:nth-child(1) span { background-image: url('https://ws2.sinaimg.cn/large/005ODKsIgw1fakb435nz6j31hc0u079l.jpg');}
-// .cb-slideshow li:nth-child(2) span { background-image: url('https://ws4.sinaimg.cn/large/005ODKsIgw1fam24cqyo4j31cq0yfjxa.jpg');}
-// .cb-slideshow li:nth-child(3) span { background-image: url('https://ws4.sinaimg.cn/large/005ODKsIgw1fatjhgja0gj31hc0xvagk.jpg');}
-// .cb-slideshow li:nth-child(4) span { background-image: url('https://ws4.sinaimg.cn/large/005ODKsIgw1fajzncs9apj31hc11x0yw.jpg');}
-// .cb-slideshow li:nth-child(5) span { background-image: url('https://ws1.sinaimg.cn/large/005ODKsIgw1f5ymp3mngpj31hc0xcdiu.jpg');}
-// .cb-slideshow li:nth-child(6) span { background-image: url('https://ws1.sinaimg.cn/large/005ODKsIgw1fam1v0u0n0j31hc0xcjxc.jpg');}
+/* // .cb-slideshow li:nth-child(1) span { background-image: url('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1541224348699&di=0a2f2fd4149169fa113eeb9f68acf68e&imgtype=0&src=http%3A%2F%2Fimgup01.fanw8.com%2Ffanw8%2F2018-05%2F18%2F12%2F15266169652750_0.jpg');}
+// .cb-slideshow li:nth-child(2) span { background-image: url('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1541224349846&di=fb3510cfca907303ab1d6ab13ec87a45&imgtype=0&src=http%3A%2F%2Fi2.hdslb.com%2Fbfs%2Farchive%2F117838bfd5d2ba389af666fb7e72217cc9a2e81f.jpg');}
+// .cb-slideshow li:nth-child(3) span { background-image: url('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1541224349841&di=b223f67e26562a60bcaf6bdc2b22dcf2&imgtype=0&src=http%3A%2F%2Fpic1.win4000.com%2Fwallpaper%2F2018-01-08%2F5a531ed3cd987.png');}
+// .cb-slideshow li:nth-child(4) span { background-image: url('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1541224349833&di=f4ccf4326e292a31f8893647ede18d08&imgtype=0&src=http%3A%2F%2Fimg.139y.com%2Farticle%2Fimage%2F201706%2F05%2F3dda611223.jpg');}
+// .cb-slideshow li:nth-child(5) span { background-image: url('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1541224423601&di=d1acb914baa17ea521a78e921b77eb19&imgtype=0&src=http%3A%2F%2Fi1.hdslb.com%2Fbfs%2Farchive%2F3ad8341bec0afd00ee027eae5709ae53ceec61c1.png');}
+// .cb-slideshow li:nth-child(6) span { background-image: url('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1541224497970&di=07986f4a0855f95a5a43c88ac70d71da&imgtype=0&src=http%3A%2F%2Fi1.hdslb.com%2Fbfs%2Farchive%2Ff12ddc6073b0711f33b1d5d85dfdd86bd283bfae.jpg');} */
 
-.cb-slideshow li:nth-child(1) span { background-image: url('http://wx1.sinaimg.cn/large/dc58f491ly1fepnoqji5aj20xc0qqgt5.jpg');}
-.cb-slideshow li:nth-child(2) span { background-image: url('http://wx1.sinaimg.cn/large/dc58f491ly1fepmxueo9tj21jk10ugwc.jpg');}
-.cb-slideshow li:nth-child(3) span { background-image: url('http://wx4.sinaimg.cn/large/dc58f491ly1fepmxv27yfj20sg0hsjww.jpg');}
-.cb-slideshow li:nth-child(4) span { background-image: url('http://wx3.sinaimg.cn/large/dc58f491ly1fepmxvp7b1j20zk0qotcp.jpg');}
-.cb-slideshow li:nth-child(5) span { background-image: url('http://wx1.sinaimg.cn/large/dc58f491ly1fepmxwdysjj21400p0wli.jpg');}
-.cb-slideshow li:nth-child(6) span { background-image: url('http://wx1.sinaimg.cn/large/dc58f491ly1fepmxx2ja5j20zk0qotek.jpg');}
+.cb-slideshow li:nth-child(1) span { background-image: url('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1541224348699&di=0a2f2fd4149169fa113eeb9f68acf68e&imgtype=0&src=http%3A%2F%2Fimgup01.fanw8.com%2Ffanw8%2F2018-05%2F18%2F12%2F15266169652750_0.jpg');}
+.cb-slideshow li:nth-child(2) span { background-image: url('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1541224349846&di=fb3510cfca907303ab1d6ab13ec87a45&imgtype=0&src=http%3A%2F%2Fi2.hdslb.com%2Fbfs%2Farchive%2F117838bfd5d2ba389af666fb7e72217cc9a2e81f.jpg');}
+.cb-slideshow li:nth-child(3) span { background-image: url('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1541224349841&di=b223f67e26562a60bcaf6bdc2b22dcf2&imgtype=0&src=http%3A%2F%2Fpic1.win4000.com%2Fwallpaper%2F2018-01-08%2F5a531ed3cd987.png');}
+.cb-slideshow li:nth-child(4) span { background-image: url('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1541224349833&di=f4ccf4326e292a31f8893647ede18d08&imgtype=0&src=http%3A%2F%2Fimg.139y.com%2Farticle%2Fimage%2F201706%2F05%2F3dda611223.jpg');}
+.cb-slideshow li:nth-child(5) span { background-image: url('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1541224423601&di=d1acb914baa17ea521a78e921b77eb19&imgtype=0&src=http%3A%2F%2Fi1.hdslb.com%2Fbfs%2Farchive%2F3ad8341bec0afd00ee027eae5709ae53ceec61c1.png');}
+.cb-slideshow li:nth-child(6) span { background-image: url('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1541224497970&di=07986f4a0855f95a5a43c88ac70d71da&imgtype=0&src=http%3A%2F%2Fi1.hdslb.com%2Fbfs%2Farchive%2Ff12ddc6073b0711f33b1d5d85dfdd86bd283bfae.jpg');}
 
 .hidden-xs{
 
