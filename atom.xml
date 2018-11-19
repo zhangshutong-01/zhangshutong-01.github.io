@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>老菜鸟</title>
+  
+  <subtitle>好好学习，争取成为老鸟</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2018-11-19T10:07:51.946Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>子非鱼</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://yoursite.com/2018/11/19/swiper/"/>
+    <id>http://yoursite.com/2018/11/19/swiper/</id>
+    <published>2018-11-19T10:06:46.219Z</published>
+    <updated>2018-11-19T10:07:51.946Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>基于swiper4</p></blockquote><pre><code>1. cnpm install --save-dev vue-awesome-swiper</code></pre><blockquote><p>拦截器</p></blockquote><pre><code>axiosaxios-mock-adapterconst mock = new axiosAdapter(axios)mock.onGet(&quot;/getCarouselList&quot;).reply(200,{    errCode:0,    errMsg:&apos;&apos;,    result:[        {            url:&quot;./static/images/banner1.png&quot;        },        {            url:&quot;./static/images/banner2.png&quot;        }    ]})</code></pre><a id="more"></a><blockquote><p>element-ui</p></blockquote><pre><code>1. 引入import ElementUI from &apos;element-ui&apos;2. 挂载Vue.use(ElementUI)3.显示&lt;el-carousel :interval=&quot;3000&quot; height=&quot;131px&quot;&gt;    &lt;el-carousel-item&gt;        &lt;img :src=&quot;item.picUrl&quot;&gt;    &lt;/el-carousel-item&gt;&lt;/el-carousel&gt;</code></pre><blockquote><p>axios 拦截器</p></blockquote><pre><code>axios-mock-adapter</code></pre><blockquote><p>vue-lazyload</p></blockquote><pre><code>1. 引入import VueLazyload from &quot;vue-lazyload&quot;2. 挂载Vue.use(VueLazyload, {    preLoad: 1.3,    loading: &quot;../static/img/loading.gif&quot;})3.显示template中的v-bind:src变为v-lazy</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;基于swiper4&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code&gt;1. cnpm install --save-dev vue-awesome-swiper
+&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
+&lt;p&gt;拦截器&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code&gt;axios
+axios-mock-adapter
+
+const mock = new axiosAdapter(axios)
+
+mock.onGet(&amp;quot;/getCarouselList&amp;quot;).reply(200,{
+    errCode:0,
+    errMsg:&amp;apos;&amp;apos;,
+    result:[
+        {
+            url:&amp;quot;./static/images/banner1.png&amp;quot;
+        },
+        {
+            url:&amp;quot;./static/images/banner2.png&amp;quot;
+        }
+    ]
+})
+&lt;/code&gt;&lt;/pre&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://yoursite.com/2018/11/01/My-New-Post/"/>
+    <id>http://yoursite.com/2018/11/01/My-New-Post/</id>
+    <published>2018-11-01T11:58:30.213Z</published>
+    <updated>2018-11-19T10:05:15.566Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>Vue的自定义过渡动画</p></blockquote><pre><code>过渡：(transition标签)// 1   引入animate.css// 2 &lt;transition active-enter-class=&quot;animated bounceInLeft&quot; leave-enter-class=&quot;animated bounceOutLeft&quot;&gt;&lt;/transition&gt;</code></pre><a id="more"></a><pre><code>1.name 设置样式&lt;transition name=&quot;fade&quot;&gt;&lt;/transition&gt;//六种状态// opacity:0 = &gt; opacity:1v-enter  进入过渡开始状态v-enter-active 进入过渡生效时的状态v-enter-to  进入过渡结束状态// opacity:1 = &gt; opacity:0v-leave  离开过渡开始状态v-leave-active  离开过渡生效时的状态v-leave-to 离开过渡结束状态2.elements3.js库    celocity.js事件监听器：    transitionend或animationend</code></pre><blockquote><p>js钩子</p></blockquote><pre><code>// 进入v-before-enter进入之前v-enter 进入v-after-enter 进入之后v-enter-cancelled 移除动画// 离开v-before-leave离开之前v-leave 离开v-v-after-leave 离开之后v-leave-cancelled 移除动画</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;Vue的自定义过渡动画&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code&gt;过渡：(transition标签)
+
+// 1
+   引入animate.css
+// 2 
+&amp;lt;transition active-enter-class=&amp;quot;animated bounceInLeft&amp;quot; leave-enter-class=&amp;quot;animated bounceOutLeft&amp;quot;&amp;gt;&amp;lt;/transition&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://yoursite.com/2018/11/01/hello-world/"/>
+    <id>http://yoursite.com/2018/11/01/hello-world/</id>
+    <published>2018-11-01T11:18:34.414Z</published>
+    <updated>2018-11-19T10:03:21.665Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>事件修饰符(6种)</p></blockquote><table><thead><tr><th>事件修饰符</th><th>说明</th></tr></thead><tbody><tr><td>.stop</td><td>阻止冒泡</td></tr><tr><td>.prevent</td><td>阻止默认行为</td></tr><tr><td>.capture</td><td>添加事件监听器时使用事件捕获模式（即元素自身触发的事件先在此处处理，然后才交由内部元素进行处理）</td></tr><tr><td>.self</td><td>只当在 event.target 是当前元素自身时触发处理函数(事件不是从内部元素触发的)</td></tr><tr><td>.once</td><td>事件将只会触发一次(可数组事件)</td></tr><tr><td>.passive</td><td>滚动事件的默认行为 (即滚动行为) 将会立即触发(而不会等待 <code>onScroll</code> 完成,包含 <code>event.preventDefault()</code> 的情况)</td></tr></tbody></table><a id="more"></a><blockquote><p>按键修饰符</p></blockquote><pre><code>.enter.tab.delete (捕获“删除”和“退格”键).esc.space.up.down.left.right</code></pre><blockquote><p>系统修饰符</p></blockquote><pre><code>.ctrl.alt.shift.meta</code></pre><blockquote><p>鼠标按钮修饰符</p></blockquote><pre><code>.left.right.middle</code></pre><blockquote><p>表单修饰符</p></blockquote><pre><code>.lazy 使用 change 事件进行同步.number 自动将用户的输入值转为数值类型.trim 自动过滤用户输入的首尾空白字符</code></pre><blockquote><p>computed与watch的区别</p></blockquote><pre><code>1. computed监听的是函数内部依赖的数据    computed：一个属性依赖于多个属性时，推荐使用2. watch可以对数据进行观察，如果有数据变化，则会进一步触发数据的相应,对当前数据有依赖的所有数据进行更新    watch()：多个属性依赖一个属性是，推荐使用</code></pre><blockquote><p>vue属于一个mvvm架构的前端框架</p></blockquote><blockquote><p>vue中可以使用key属性防止元素的复用</p></blockquote><blockquote><p>vue中的条件渲染指令<br>    v-if v-else v-else-if</p></blockquote><blockquote><p>vue中更新渲染列表时，默认使用“就地复用”策略</p></blockquote><blockquote><p>vue中数组的变异方法</p></blockquote><pre><code>(改变原数组，直接更新数据，页面会重新渲染)push()pop()shift()unshift()splice()sort()reverse()     push()  往数组最后面添加一个元素，成功返回当前数组的长度    pop()  删除数组的最后一个元素，成功返回删除元素的值    shift()  删除数组的第一个元素，成功返回删除元素的值unshift()  往数组最前面添加一个元素，成功返回当前数组的长度 splice()  有三个参数，第一个是想要删除的元素的下标（必选），第二个是想要删除的个数（必选），第三个是删除                后想要在原位置替换的值（可选）   sort()  使数组按照字符编码默认从小到大排序,成功返回排序后的数组reverse()  将数组倒序，成功返回倒序后的数组</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;事件修饰符(6种)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;事件修饰符&lt;/th&gt;
+&lt;th&gt;说明&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;.stop&lt;/td&gt;
+&lt;td&gt;阻止冒泡&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;.prevent&lt;/td&gt;
+&lt;td&gt;阻止默认行为&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;.capture&lt;/td&gt;
+&lt;td&gt;添加事件监听器时使用事件捕获模式（即元素自身触发的事件先在此处处理，然后才交由内部元素进行处理）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;.self&lt;/td&gt;
+&lt;td&gt;只当在 event.target 是当前元素自身时触发处理函数(事件不是从内部元素触发的)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;.once&lt;/td&gt;
+&lt;td&gt;事件将只会触发一次(可数组事件)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;.passive&lt;/td&gt;
+&lt;td&gt;滚动事件的默认行为 (即滚动行为) 将会立即触发(而不会等待 &lt;code&gt;onScroll&lt;/code&gt; 完成,包含 &lt;code&gt;event.preventDefault()&lt;/code&gt; 的情况)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
