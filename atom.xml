@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-11-19T10:22:02.874Z</updated>
+  <updated>2018-11-19T10:29:27.107Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://yoursite.com/2018/11/19/swiper/"/>
     <id>http://yoursite.com/2018/11/19/swiper/</id>
     <published>2018-11-19T10:06:46.219Z</published>
-    <updated>2018-11-19T10:22:02.874Z</updated>
+    <updated>2018-11-19T10:29:27.107Z</updated>
     
-    <content type="html"><![CDATA[<blockquote><p>基于swiper4</p></blockquote><pre><code>1. cnpm install --save-dev vue-awesome-swiper</code></pre><blockquote><p>拦截器</p></blockquote><pre><code>axiosaxios-mock-adapterconst mock = new axiosAdapter(axios)mock.onGet(&quot;/getCarouselList&quot;).reply(200,{    errCode:0,    errMsg:&apos;&apos;,    result:[        {            url:&quot;./static/images/banner1.png&quot;        },        {            url:&quot;./static/images/banner2.png&quot;        }    ]})</code></pre><a id="more"></a><blockquote><p>element-ui</p></blockquote><pre><code>1. 引入import ElementUI from &apos;element-ui&apos;2. 挂载Vue.use(ElementUI)3.显示&lt;el-carousel :interval=&quot;3000&quot; height=&quot;131px&quot;&gt;    &lt;el-carousel-item&gt;        &lt;img :src=&quot;item.picUrl&quot;&gt;    &lt;/el-carousel-item&gt;&lt;/el-carousel&gt;</code></pre><blockquote><p>axios 拦截器</p></blockquote><pre><code>axios-mock-adapter</code></pre><blockquote><p>vue-lazyload</p></blockquote><pre><code>1. 引入import VueLazyload from &quot;vue-lazyload&quot;2. 挂载Vue.use(VueLazyload, {    preLoad: 1.3,    loading: &quot;../static/img/loading.gif&quot;})3.显示template中的v-bind:src变为v-lazy</code></pre>]]></content>
+    <content type="html"><![CDATA[<blockquote><p>基于swiper4</p></blockquote><pre><code>1. cnpm install --save-dev vue-awesome-swiper</code></pre><a id="more"></a><blockquote><p>拦截器</p></blockquote><pre><code>axiosaxios-mock-adapterconst mock = new axiosAdapter(axios)mock.onGet(&quot;/getCarouselList&quot;).reply(200,{    errCode:0,    errMsg:&apos;&apos;,    result:[        {            url:&quot;./static/images/banner1.png&quot;        },        {            url:&quot;./static/images/banner2.png&quot;        }    ]})</code></pre><blockquote><p>element-ui</p></blockquote><pre><code>1. 引入import ElementUI from &apos;element-ui&apos;2. 挂载Vue.use(ElementUI)3.显示&lt;el-carousel :interval=&quot;3000&quot; height=&quot;131px&quot;&gt;    &lt;el-carousel-item&gt;        &lt;img :src=&quot;item.picUrl&quot;&gt;    &lt;/el-carousel-item&gt;&lt;/el-carousel&gt;</code></pre><blockquote><p>axios 拦截器</p></blockquote><pre><code>axios-mock-adapter</code></pre><blockquote><p>vue-lazyload</p></blockquote><pre><code>1. 引入import VueLazyload from &quot;vue-lazyload&quot;2. 挂载Vue.use(VueLazyload, {    preLoad: 1.3,    loading: &quot;../static/img/loading.gif&quot;})3.显示template中的v-bind:src变为v-lazy</code></pre>]]></content>
     
     <summary type="html">
     
@@ -31,26 +31,6 @@
 &lt;p&gt;基于swiper4&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;pre&gt;&lt;code&gt;1. cnpm install --save-dev vue-awesome-swiper
-&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
-&lt;p&gt;拦截器&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;pre&gt;&lt;code&gt;axios
-axios-mock-adapter
-
-const mock = new axiosAdapter(axios)
-
-mock.onGet(&amp;quot;/getCarouselList&amp;quot;).reply(200,{
-    errCode:0,
-    errMsg:&amp;apos;&amp;apos;,
-    result:[
-        {
-            url:&amp;quot;./static/images/banner1.png&amp;quot;
-        },
-        {
-            url:&amp;quot;./static/images/banner2.png&amp;quot;
-        }
-    ]
-})
 &lt;/code&gt;&lt;/pre&gt;
     
     </summary>
